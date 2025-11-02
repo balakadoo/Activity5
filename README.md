@@ -41,20 +41,12 @@ cd ../frontend
 npm install
 ```
 
-### 2. Configure Backend
-Create `backend/.env`:
-
-```
-PORT=5000
-JWT_SECRET=your_super_secret_key_change_this_in_production
-```
-
-### 3. Run the Application
+### 2. Run the Application
 Start Backend:
 
 ```
 cd backend
-npm start
+npm run dev
 ```
 
 Server runs on `http://localhost:5000`
